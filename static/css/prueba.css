@@ -1,0 +1,26 @@
+.Article{
+
+	background-color: red;
+	position: relative;
+
+}
+
+.Article-figure{
+
+}
+
+.Article-image{
+	border: 3px solid white;
+	border-radius: 10px;
+	width: 50px;
+	margin-top: 15px;
+
+}
+
+.Article-description{
+	margin-top: -17px;
+	position: absolute;
+	background-color: yellow;
+	border-radius: 0 0 0.5em 0.5em;
+
+}

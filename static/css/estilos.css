@@ -1,0 +1,399 @@
+/*ICONFONTS*/
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?-1lahri');
+    src:url('../fonts/icomoon.eot?#iefix-1lahri') format('embedded-opentype'),
+        url('../fonts/icomoon.woff?-1lahri') format('woff'),
+        url('../fonts/icomoon.ttf?-1lahri') format('truetype'),
+        url('../fonts/icomoon.svg?-1lahri#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:after, [class*=" icon-"]:after,
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-uniE600:after{
+    background: orange;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    content: "\e600";
+    font-size: 3.75em;
+    font-weight: lighter;    
+    position: absolute;
+    right: 0;
+    top: 1.45em;
+}
+.icon-uniE601:before{
+    
+    background: orange;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    content: "\e601";
+    font-size: 3.75em;
+    font-weight: lighter;    
+    position: absolute;
+    top: 1.45em;
+    left: 0;
+}
+
+/*HEADER*/
+
+.Header{
+	background-image: url('../images/Nombre.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:3.75em;
+	padding: 0.2em 0 0.5em;
+	text-align: center;
+}
+
+.Header-image{
+	border:5px solid white;
+	border-radius: 50%;
+
+}
+
+.Header-image:hover{
+	-webkit-transition:1s;
+	-o-transition:1s;
+	-ms-transition:1s;
+	-moz-transition:1s;
+	border-color: orange;
+	-webkit-transform:rotateY(360deg);
+	-o-transform:rotateY(360deg);
+	-moz-transform:rotateY(360deg);
+	-ms-transform:rotateY(360deg);
+}
+
+.Header-imageContainer{
+    margin-left:0;
+    margin-right: 0;
+    display: inline-block;
+    position: relative;
+    min-width: 320px;
+}
+.Header-name,
+.Header-link{
+	color:white;
+}
+
+.Header-link{
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Header-Name{
+	font-size: 1.5em;
+	font-weight: lighter;
+}
+
+/* MAIN MENU*/
+
+.MainMenu{
+	background: #1E1E1E;
+	height: 3.75em;
+	left: 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top:0;
+    z-index: 1;
+}
+
+.MainMenu-item{
+	display: inline-block;
+}
+
+.MainMenu-link{
+	color: #00DBFF;
+	line-height: 3.75em;
+	margin-right: .5em;
+	text-decoration: none;
+}
+
+.MainMenu-link:hover{
+	background: grey;
+	border-radius: .5em;
+	border-bottom: 1px solid orange;
+	padding: .5em;
+	-webkit-transition: .3s;
+
+}
+.MainMenu-list{
+	margin:0;
+	padding: 0;
+}
+
+.MainMenu-scrolled{
+	background-color: rgba(30,30,30,0.6);
+}
+
+/*UTILITIES */
+.U-title{
+	background: #000000;
+	border-bottom:1.5px dashed #00CCFF;
+	color:#00CCFF;
+	display: block;
+	font-size: 1.5em;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: .5em;
+	margin-right: 3em;
+	margin-left: 3em;
+}
+
+/*PROFILE*/
+.Profile{
+	background: #000000;
+	text-align: center;
+	padding-bottom: 1.5em;
+}
+
+.Profile-background1{
+	background: #FF8000;
+}
+
+.Profile-background2{
+	background: #327CBE;
+}
+
+.Profile-background3{
+	background: #002DB2;
+}
+.Profile-description{
+	color:white;
+}
+
+.Profile-link{
+	/*background: orange;*/
+	border-radius: 2em;
+	color:white;
+	display: inline-block;
+	margin-right: .5em;
+	margin-top: .5em;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+
+.Profile-title{
+	margin-top: 0;
+}
+
+/*BOTÓN PUBLICAR DEL NAV*/
+.Publicar{
+	-webkit-transition:.3s;
+	background: Orange;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	display: block;
+	padding: 0.5em;
+	padding: 0.6em 0.8em;
+	position: absolute;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
+	margin-top: 0.5em;
+	right: 0;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+	top: -0.1em;
+}
+
+.Publicar a{
+	color: white;
+	font-style: italic;
+	text-decoration: none;
+}
+
+/*WORK*/
+.Work{
+	margin-top: 2em;
+	text-align: center;
+	background: #000000;
+	margin-top: -1.5em;
+}
+
+.Work-description{
+	font-size: 1.1em:;
+	color:#515151;
+	font-style: italic;
+}
+
+.Work-item{
+	display:inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+
+.Work-imageContainer{
+	margin: 0;
+}
+
+.Work-video{
+	display:none;
+}
+
+/*FOOTER*/
+.Footer{
+	background-image:url("../images/footer.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	
+}
+
+/*DEBO REVISAR QUÉ PASA CON ESTE PÁRRAFO (footer description), PUES NO ME QUEDA RESPONSIVE*/
+
+.Footer-description{
+	display: inline-block;
+}
+
+.Footer-form{
+	text-align:center;
+	display: inline-block;
+	padding: 2em 0;
+}
+
+.Footer-formInput,
+.Footer-textArea{
+	background: white;
+	border:none;
+	display: block;
+	margin:0 auto 1em;
+	border-radius: 2em;
+	padding: .5em;
+}
+
+.Footer-left{
+	display: inline-block;
+	max-width: 32em;
+	text-align: center;
+	vertical-align: top;
+}
+
+.Footer-textArea{
+	resize:none;
+}
+
+.Footer-title{
+	color:white;
+}
+
+.Footer-button{
+	background: orange;
+	color:white;
+	border-radius: 1em;
+	border:none;
+	padding: .5em 1em;
+}
+
+input:focus,text-area:focus{
+	background: #22e3f5;
+}
+
+/**
+ * FORMULARIO DEL NAV
+ */
+
+.formulario{
+	display: none;
+	padding: 0 0.5em 0 0;
+	text-align: right;
+}
+
+.formulario input{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0.2em 0.6em;
+}
+
+.formulario input[type="submit"]{
+	background: #22BCE0;
+	border-color: #22BCE0;
+	box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 20px;
+	font-style: italic;
+	text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px;
+	color: white;
+}
+
+@media screen and (min-width: 800px){
+	.Work{
+		overflow: hidden;
+	}
+	.Work-item{
+		width: 40%;
+		float:left;
+	}
+	.Work-item:nth-child(even){
+		margin-right: 2%;
+	}
+
+}
+@media screen and (min-width:1000px){
+	.Work-video{
+		display: block;
+		float:right;
+		margin: 0.5em;
+		width: 30%;
+	}
+
+	aside video{
+		width: 100%;
+	}
+
+	.Work-item:nth-child(even){
+		width: 20%;
+		margin-right: 1%;		
+	}
+}
+
+/*Este @media se crea para poder organizar el botón publicar en el responsive*/
+@media screen and (max-width: 414px){
+	.MainMenu{
+		
+		text-align: left;
+	}
+
+	.MainMenu-link{
+		margin-right: 0;
+	}
+
+	.Publicar{
+		margin-right: 0;
+	}
+	
+}
+
+/*Estos media querys son para organizar mejor los iconos*/
+
+@media screen and (max-width: 337px){
+    .Header-imageContainer{
+        min-width: 280px;
+    }
+    .icon-uniE600:after{
+        font-size: 3em;
+        top: 1.6em;
+        right: 0.09em;
+    }
+    .icon-uniE601:before{
+        font-size: 3em;
+        left: 0.09em;
+    }
+
+}
